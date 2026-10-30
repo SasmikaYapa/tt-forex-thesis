@@ -1,0 +1,5 @@
+Check,Status,Evidence
+12 currency-horizon tasks,PASS,12 tasks found
+Only 2019-2023 evaluation years,PASS,"[2019, 2020, 2021, 2022, 2023]"
+Random Walk skill fixed at zero,PASS,Skill = 0 by benchmark definition
+Random Walk Theil U fixed at one,PASS,Theil U = 1 by benchmark definition

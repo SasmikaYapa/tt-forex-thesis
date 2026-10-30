@@ -1,0 +1,26 @@
+# Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+*.pyc
+# Raw/private data, models, credentials, exports
+data/raw/
+data/private/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+secrets/
+*.key
+*.pem
+# Local scratch and auto exports
+outputs/tmp/
+.DS_Store
+Thumbs.db

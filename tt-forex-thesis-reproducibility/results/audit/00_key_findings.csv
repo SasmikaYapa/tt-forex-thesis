@@ -1,0 +1,14 @@
+Finding,Value,Interpretation
+ZA estimated break dates,USD: 2022-03-07; GBP: 2022-03-07; EUR: 2022-03-07; JPY: 2022-03-07,"Dates are conditional break estimates in trend-stationarity testing, not causal identifications."
+CUSUM trend-fit instability,4/4,"CUSUM describes fitted trend-model stability, not proven concept drift."
+Original Notebook 09 numerical RMSE wins,9/12,Different experiment versions; do not pool their scores.
+FS-Safe base09 numerical RMSE wins,9/12,Different experiment versions; do not pool their scores.
+FS-Safe selected-feature extension wins vs RW,9/12,"Extension differs from base09, no equivalence to original 09."
+FS-Safe extension beats its own base09,0/12,Saved results show zero incremental RMSE improvement on the matched task panels; do not claim feature selection improved forecasts.
+Original Script 13 QLIKE numerical gains,11/12,Different procedure and observation alignment; not paired before/after study.
+Corrected Script 12C QLIKE numerical gains,12/12,Different procedure and observation alignment; not paired before/after study.
+Original Script 13 USD H1 extreme QLIKE influence,Top-one share of positive loss: 95.5%,An extreme observation dominates positive-loss magnitude; do not regard the original huge pooled QLIKE gain as stable evidence.
+Original Script 13 USD H1 gain after removing largest model-loss origin,-0.157,"Sign reverses after one observation is removed in the original diagnostic; exploratory influence check, not an alternative selected model."
+Corrected 12C nominal two-sided DM p<0.05,1,"Only p values, no guarantee of direction."
+Corrected 12C Holm-significant positive QLIKE gains,1,Holm adjustment over 12 tasks; exploratory adjustment of saved p-values.
+Corrected Script 12C 2022 subgroup sensitivity,AVAILABLE,"Recomputed from actual corrected predictions, not original Script 13 subgroup results."

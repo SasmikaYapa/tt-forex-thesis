@@ -1,0 +1,2 @@
+Category,Severity,Detail
+NO_FEATURE_SELECTION_IMPROVEMENT,RESEARCH_FINDING,FS-Safe saved extension has Skill_vs_BASE09 = 0 for all 12 tasks. Feature selection does not demonstrate incremental RMSE benefit in this run.

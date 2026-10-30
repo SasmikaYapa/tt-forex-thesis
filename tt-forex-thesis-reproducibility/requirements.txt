@@ -1,0 +1,14 @@
+# Suggested environment; versions are not a verified lockfile
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+statsmodels
+arch
+joblib
+nbformat
+jupyterlab
+openpyxl
+xgboost
+# Include TensorFlow or PyTorch only if required by the actual DL notebooks and supported by your Python version.
